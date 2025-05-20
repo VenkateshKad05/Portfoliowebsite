@@ -3,59 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>Portfolio Website - Kadiri Venkatesh</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            margin: 20px 0;
+        }
+
+        /* Navigation Buttons */
+        nav button {
+            background-color: white;
+            color: #007bff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        nav button:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        /* Sections */
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        ul {
+            text-align: left;
+            padding: 10px;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        /* Form Styles */
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 300px;
+            margin: auto;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        input {
+            width: 90%;
+            padding: 8px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        /* GitHub Link Styling */
+        .github-link {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .github-link a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .github-link a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
 </head>
 <body>
-<h1><blockquote>WELCOME TO MY PORTFOLIO</blockquote>
-    <a href="">
-        <button>about</button>
-    </a>
-    <a href="">
-        <button>details</button>
-    </a>
-    <a href="">
-        <button>bio</button>
-    </a>
-        
-        
-<h2>KADIRI VENKATESH</h2>
-<h3>Python Developer</h3>
-<h4>Vizagite</h4>
 
-<p> Im a web developer.I have completed my graduation in<em>"Raghu engineering college"</em></p>
-<p> My native place is visakhapatnam.</p>
-<h1>MY SKILLS</h1>
-<ol>
-<li>Front End Developer</li>
-<li>Python</li>
-<li>HTML and CSS</li>
-</ol>
-<h1><strong>CONTACT ME</strong></h1>
-<p>feel free to ask</p>
-<form action="">
-    <label for="name">name:</label>
-    <input type="text">
-    <label for="email">email:</label>
-    <input type="email">
-<h3>Gender:</h3>
-<label for="male">male</label>
-<input type="checkbox" name="male" id="male">
-<label for="female">female</label>
-<input type="checkbox" name="female" id="female">
-<h3>Interests:</h3>
-<label for="reading">reading</label>
-<input type="checkbox" name="reading" id="reading">
+    <header>
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+        <nav>
+            <a href="#"><button>About</button></a>
+            <a href="#"><button>Details</button></a>
+            <a href="#"><button>Bio</button></a>
+        </nav>
+    </header>
 
-<label for="playing">playing</label>
-<input type="checkbox" name="playing" id="playing">
-<label for="coding">coding</label>
-<input type="checkbox" name="coding" id="coding">
-<br>
+    <section class="profile">
+        <h2>KADIRI VENKATESH</h2>
+        <h3>Graduate in Mechanical Engineering | Batch 2024</h3>
+        <p>Email: <a href="mailto:Mvenkateshkadirigwk@gmail.com">Mvenkateshkadirigwk@gmail.com</a></p>
+        <p>Location: Visakhapatnam, AP</p>
+        <p>Contact: 9392436429</p>
+        <p>Nationality: Indian</p>
+        <p><strong>PROFILE:</strong> Highly adept and learning candidate seeking a tech career to achieve success. Confident in skills, adaptable to any work culture, and possesses strong communication and teamwork abilities.</p>
+    </section>
 
-<button type="SUBMIT">SUBMIT</button>
+    <section class="experience">
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <h3>Python Full Stack Developer at EduMoon | Andhra University</h3>
+        <ul>
+            <li>Developed scalable web applications using HTML, CSS, and JavaScript.</li>
+            <li>Integrated backend services using Node.js & React.</li>
+            <li>Employed DevOps practices for agile development and code quality.</li>
+            <li>Used Git, Jira, and Docker for version control and task management.</li>
+        </ul>
+    </section>
 
+    <section class="skills">
+        <h2>SKILLS</h2>
+        <ul>
+            <li>Python Programming</li>
+            <li>Java Backend Development</li>
+            <li>Data Structures & Algorithms</li>
+            <li>DBMS - MySQL</li>
+            <li>Version Control (Git)</li>
+            <li>Jira & Cloud Fundamentals</li>
+        </ul>
+    </section>
 
+    <section class="education">
+        <h2>EDUCATION</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>CGPA</th>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>BTech</td>
+                <td>Raghu Engineering College</td>
+                <td>7.8</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Inter</td>
+                <td>Sri Chaitanya Jr. College</td>
+                <td>9.4</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>10th</td>
+                <td>Bapujee Vidhyalayam</td>
+                <td>9.7</td>
+            </tr>
+        </table>
+    </section>
 
-</form>
+    <section class="languages">
+        <h2>LANGUAGES</h2>
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Telugu</li>
+        </ul>
+    </section>
+
+    <section class="github-link">
+        <h2>GitHub Profile</h2>
+        <p>Check out my projects: <a href="https://github.com/VenkateshKad05" target="_blank">GitHub - VenkateshKad05</a></p>
+    </section>
+
+    <footer>
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+
 </body>
 </html>
