@@ -7,7 +7,7 @@ This is a personal portfolio website showcasing my professional experience, skil
 - About Me Section – Overview of my education, experience, and background  
 - Skills & Technologies – Key programming and development expertise  
 - Professional Experience – Details of my work as a Python Full Stack Developer
-- Projects – Featured work, including Portfolio Website, Bill Generator, and **Robotic Arm
+- Projects – Featured work, including Portfolio Website, Bill Generator, and Robotic Arm
 - GitHub Profile – Direct link to my repositories  
 - Contact Form – Allows users to reach out  
 
